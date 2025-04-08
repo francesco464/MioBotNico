@@ -123,26 +123,3 @@ Aggiorna la sezione staff con le tue informazioni e i contatti, seguendo il form
 
 ---
 
-Ecco la versione aggiornata del file `README.md`, con il **logo di PuffinoBOT** al posto del logo di 333. Ho mantenuto il formato e gli elementi che desideravi:
-
----
-
-
-   pkg install yarn
-   ```
-
-7. **Clona la repository e avvia:**  
-   ```bash
-   cd /sdcard && rm -rf PuffinoBOT && git clone git@github.com:puffino26/Puffinobot.git
-   cd /sdcard/PuffinoBOT
-   yarn
-   npm start
-   ```
-
----
-
-### **Staff**
-Aggiorna la sezione staff con le tue informazioni e i contatti, seguendo il formato del tuo messaggio.
-
----
-
