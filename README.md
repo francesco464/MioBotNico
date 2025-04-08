@@ -110,7 +110,7 @@ cd /sdcard && rm -rf PuffinoBOT && git clone git@github.com:puffino26/Puffinobot
 
 7. **Clona la repository e avvia:**  
    ```bash
-   cd /sdcard && rm -rf PuffinoBOT && git clone git@github.com:puffino26/Puffinobot.git
+   cd /sdcard && rm -rf Puffinobot && git clone git@github.com:puffino26/Puffinobot.git
    cd /sdcard/PuffinoBOT
    yarn
    npm start
