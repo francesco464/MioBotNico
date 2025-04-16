@@ -1,99 +1,66 @@
-## ** ✦ CONFIGURAZIONE Puffinobot **
-### Usa il bottone per eseguire il fork:
-< a href = \"https://github.com/puffino26/Puffinobot/fork\" >
-< img title = \"bot\" src = \"https://github.com/Alien-alfa/Alien-alfa/blob/beta/img/pngegg.png?raw=true\" width = \"200\" >
-</ a >
-- ** Clonare la repository: ** [ clicca qui ] ( https://github.com/puffino26/Puffinobot/fork )
-- ** Cambiare numero del proprietario: ** [ clicca qui ] ( https://github.com/puffino26/Puffinobot/blob/main/config.js )
+Puffinobot 🔮
+Bot WhatsApp multiuso con funzionalità avanzate e un tocco cyberpunk!
 
----
+✦ Configurazione di Puffinobot
+🔧 Esegui il Fork della repository:
 
-### ** ✦ CONTATTI **
-- ** Canale WhatsApp: ** [ ` Clicca qui ` ] ( https://whatsapp.com/channel/0029VauhQviCsU9Ibrwlkb0h )
-- ** Gruppo WhatsApp: ** [ ` Clicca qui ` ] ( https://chat.whatsapp.com/JhrcigFtXpW4OzdhE9Jdq3 )
-- ** Contatto WhatsApp: ** [ ` +39 3246014915 ` ] ( https://wa.me/393246014915 )
+Clonare la repository: Clicca qui
 
----
+Cambiare il numero del proprietario: Clicca qui
 
-## ** ✦ VERSIONE DI TERMUX NECESSARIA **
-Scarica Termux da [ questo link ] ( https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file ) .
+✦ Contatti
+Canale WhatsApp: Clicca qui
 
----
+Gruppo WhatsApp: Clicca qui
 
-## ** ✦ COMANDO PER INSTALLARE LA CARTELLA DI Puffinobot **
-```bash
-cd /sdcard && rm -rf Puffinobot && git clone git@github.com:puffino26/Puffinobot.git && cd Puffinobot
+Contatto WhatsApp: +39 3246014915
 
+✦ Requisiti
+📱 Versione di Termux necessaria:
+Scarica Termux dal seguente link.
 
+✦ Comandi per installare Puffinobot
+bash
+cd /sdcard && rm -rf Puffinobot && git clone https://github.com/puffino26/Puffinobot.git && cd Puffinobot
+✦ Configurazione su Termux
+Abilita l'accesso alla memoria:
 
-
-## ** ✦ CONFIGURAZIONE Puffinobot **
-### Usa il bottone per eseguire il fork:
-< a href = \"https://github.com/puffino26/Puffinobot/fork\" >
-< img title = \"bot\" src = \"https://github.com/Alien-alfa/Alien-alfa/blob/beta/img/pngegg.png?raw=true\" width = \"200\" >
-</ a >
-- ** Clonare la repository: ** [ clicca qui ] ( https://github.com/puffino26/Puffinobot/fork )
-- ** Cambiare numero del proprietario: ** [ clicca qui ] ( https://github.com/puffino26/Puffinobot/blob/main/config.js )
-
----
-
-### ** ✦ CONTATTI **
-- ** Canale WhatsApp: ** [ ` Clicca qui ` ] ( https://whatsapp.com/channel/0029VauhQviCsU9Ibrwlkb0h )
-- ** Gruppo WhatsApp: ** [ ` Clicca qui ` ] ( https://chat.whatsapp.com/JhrcigFtXpW4OzdhE9Jdq3 )
-- ** Contatto WhatsApp: ** [ ` +39 3246014915 ` ] ( https://wa.me/393246014915 )
-
----
-
-## ** ✦ VERSIONE DI TERMUX NECESSARIA **
-Scarica Termux da [ questo link ] ( https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file ) .
-
----
-
-** ✦ ATTIVA Puffinobot SU TERMUX **
+bash
 termux-setup-storage
+Aggiorna i pacchetti di Termux:
 
-
-
-
-** Aggiorna i pacchetti di Termux: **
+bash
 pkg upgrade -y && pkg update -y
+Installa Git:
 
-
-
-
-
-** Installa Git: **
+bash
 pkg install git -y
+Installa FFmpeg:
 
-
-
-
-
-** Installa FFmpeg: **
+bash
 pkg install ffmpeg -y
+Installa ImageMagick:
 
-
-
-
-
-
-** Installa ImageMagick: **
+bash
 pkg install imagemagick -y
+Installa Yarn:
 
-
-
-
-
-** Installa Yarn: **
+bash
 pkg install yarn
+Clona la repository e avvia il bot:
 
+bash
+cd /sdcard && rm -rf Puffinobot && git clone https://github.com/puffino26/Puffinobot.git && cd Puffinobot && yarn && npm start
+✦ Informazioni
+Nome: Puffinobot
 
+Funzionalità: Bot WhatsApp multiuso con un design unico e futuristico
 
+Supporto: Contattaci per configurazioni personalizzate
 
+Ecco una versione elegante e completa del tuo README.md!! Puoi copiarlo direttamente nella tua repository e committare le modifiche con:
 
-** Clona la repository e avvia: **
-cd /sdcard && rm -rf Puffinobot && git clone git@github.com:puffino26/Puffinobot.git cd /sdcard/Puffinobot yarn npm start
-
-
-
- 
+bash
+git add README.md
+git commit -m "Miglioramento estetico del README.md di Puffinobot"
+git push origin main
