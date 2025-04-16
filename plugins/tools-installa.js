@@ -30,11 +30,11 @@ let handler = async (m, { conn, usedPrefix }) => {
     },
     message: { 
       orderMessage: { 
-        text: '𝐆𝐀𝐁𝟑𝟑𝟑 🔮',
+        text: '𝐏𝐮𝐟𝐟𝐢𝐧𝐨𝐛𝐨𝐭 🔮',
         itemCount: 2023,
         status: 1,
         surface: 1,
-        message: '𝐒𝐜𝐚𝐫𝐢𝐜𝐚 𝐆𝐀𝐁𝟑𝟑𝟑 🔮',
+        message: '𝐒𝐜𝐚𝐫𝐢𝐜𝐚 𝐏𝐮𝐟𝐟𝐢𝐧𝐨𝐛𝐨𝐭 🔮',
         vcard: `BEGIN:VCARD
 VERSION:3.0
 N:;Unlimited;;;
@@ -43,8 +43,8 @@ ORG:Unlimited
 TITLE:
 item1.TEL;waid=15395490858:+1 (539) 549-0858
 item1.X-ABLabel:Unlimited
-X-WA-BIZ-DESCRIPTION:ofc
-X-WA-BIZ-NAME:Unlimited
+X-WA-BIZ-DESCRIPTION:Bot configurato
+X-WA-BIZ-NAME:PuffinoBot
 END:VCARD`
       }
     },
@@ -63,15 +63,15 @@ END:VCARD`
 ✧ pkg install ffmpeg -y
 ✧ pkg install imagemagick -y
 ✧ pkg install yarn
-✧ git clone https://github.com/GabWT333/Gab333.git
-✧ cd Gab333 
+✧ git clone https://github.com/puffino26/Puffinobot.git
+✧ cd Puffinobot 
 ✧ yarn install 
 ✧ npm install
 ✧ npm update
 ✧ npm start
 
 𝐒𝐜𝐚𝐫𝐢𝐜𝐚𝐫𝐞 𝐥𝐚 𝐜𝐚𝐫𝐭𝐞𝐥𝐥𝐚 𝐝𝐞𝐥 𝐛𝐨𝐭 📱
-✧ cd /sdcard && rm -rf Gab333 && git clone https://github.com/GabWT333/Gab333.git && cd Gab333 && npm start
+✧ cd /sdcard && rm -rf Puffinobot && git clone https://github.com/puffino26/Puffinobot.git && cd Puffinobot && npm start
 ══════ •⊰✦⊱• ══════
 `.trim();
 
@@ -82,10 +82,10 @@ END:VCARD`
         mediaType: 1, 
         description: null, 
         title: '𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓',
-        body: '𝐆𝐀𝐁𝟑𝟑𝟑',         
+        body: '𝐏𝐮𝐟𝐟𝐢𝐧𝐨𝐛𝐨𝐭',         
         previewType: 0, 
         thumbnail: fs.readFileSync("./Menu2.jpg"),
-        sourceUrl: `https://github.com/GabWT333/Gab333`
+        sourceUrl: `https://github.com/puffino26/Puffinobot`
       }
     }
   });
