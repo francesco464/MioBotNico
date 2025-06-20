@@ -3,11 +3,11 @@ import chalk from 'chalk'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
 
-global.botnumber = "" //Inserisci nelle apici il numero del bot (es. +393762030481)
-global.confirmCode = ""
+global.botnumber = "393384209945" //Inserisci nelle apici il numero del bot (es. +393762030481)
+global.confirmCode = "123456"
 
 global.owner = [
-    ['393246014915', 'Proprietario', true],
+    ['393716876691', 'Proprietario', true],
 
 ] //Numero degli owner
 
